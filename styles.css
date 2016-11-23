@@ -1,0 +1,43 @@
+h1{
+  font-family:lobster, Monospace;
+}
+h2{
+  color:rgb(51,105,232);
+}
+
+.img-responsive{
+  margin: 0 auto;
+}
+#jumbo{
+
+	margin-top: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(72, 133, 237, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
